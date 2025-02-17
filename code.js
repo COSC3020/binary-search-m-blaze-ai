@@ -4,9 +4,9 @@ function binarySearch(list, element) {
     let right = list.length - 1;
 
     while (left <= right) {
-        let mid = Math.floor((left + right)/2);
+        let mid = Math.floor((left + right) / 2);
 
-        if (list[mid] == element){
+        if (list[mid] === element){
             return mid;
         }
         else if (list[mid] < element){
